@@ -10,7 +10,7 @@ function printTable(num){
     const tableData = document.createElement("td");
     tableData.textContent = num; // Define its text content
     if(num % 4 == 0){
-        tableRow.style.backgroundColor = "#AFEEEE";
+        tableRow.style.backgroundColor = "#AFEEEE";//blue
     }
     tableRow.appendChild(tableData);
     document.getElementById("table").appendChild(tableRow);
